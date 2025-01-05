@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="main.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body id="Home">
+    <header>
+      <a href=""><span id="logo">Ayoub</span></a>
+      <nav>
+        <a href="#Home">Home</a>
+        <a href="#About_me">About me</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#Services">Services</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </header>
+    <hr class="hr" />
+    <section class="container">
+      <div class="text">
+        <h2>Hey There!</h2>
+        <h1>I'm &nbsp;<span class="name" id="name"></span></h1>
+        <p class="p">future web dev | game dev |cyber security amateur</p>
+        <p class="p2">There is more !!</p>
+        <div class="button_more">
+          <button class="more" id="more">more about me</button>
+        </div>
+      </div>
+      <div>
+        <img
+          src="images/b-w-fawkes-mask-hacker-3d-9avcecyk9f8dtrg4.webp"
+          alt=""
+        />
+      </div>
+    </section>
+    <hr class="divide" />
+
+    <section id="About_me">
+      <div class="text_container">
+        <h1>About me</h1>
+        <ol>
+          <div id="list_1">
+            <li class="education">My Education</li>
+            <p>
+              I am passing my first year as a student in my
+              <strong>Dream university</strong> <em>Esi-SBA</em> where i am
+              always focused in developing myself as a programer.
+            </p>
+            <button class="explore">
+              <a href="https://www.esi-sba.dz/">Explore ESI-SBA</a>
+            </button>
+            <hr />
+          </div>
+          <div id="list_2">
+            <li class="hobbies">My Hobbies</li>
+            <p>
+              Even though I am busy developing myself,but i still manage to have
+              some time to go out for a walk,practice sport or even learn extra
+              knowledge in <strong>web dev.</strong>
+            </p>
+            <button class="sport_article">
+              <a href="https://fr.wikipedia.org/wiki/Sport">read more</a>
+            </button>
+          </div>
+        </ol>
+      </div>
+      <div class="img_ESi">
+        <div class="Esi">
+          <a href="https://www.esi-sba.dz/"
+            ><img src="images/Logo Light ESI-SBA 175.png" alt="Esi-SBA"
+          /></a>
+        </div>
+        <a href="https://fr.wikipedia.org/wiki/Sport"
+          ><img src="images/sports.png" alt=""
+        /></a>
+      </div>
+    </section>
+    <hr />
+    <section id="Portfolio">
+      <p class="coming">Coming soon ...</p>
+    </section>
+    <section id="Services">
+      <h1>My services</h1>
+      <div class="project_card">
+        <img src="images/brave_screenshot.png" alt="" />
+      </div>
+      <p id="p3">
+        this is my first project.i really wanted to put more effort into
+        building my portfolio.but till now i like the way my website looks.
+      </p>
+      <p id="p4">I used three languages in building this website.</p>
+      <div class="icons">
+          <img src="images/téléchargement (1).png" alt="" />
+          <img src="images/téléchargement (2).png" alt="" />
+          <img src="images/téléchargement (3).png" alt="" />
+      </div>
+
+    </section>
+
+    <section id="Contact">
+      <h2>
+        Thank you for staying till the end.i wish my website reached your
+        expectations
+      </h2>
+      <div class="contact">
+        <div class="here">
+          We're Here <br />
+          location : Algeria, Ain Temouchent Province
+        </div>
+        <div class="talk">
+          let's talk<br />
+          my email : khayoubsofian@gmail.com <br />
+          my number : 0623512425
+        </div>
+      </div>
+      <footer>created by AYOUB &copy;</footer>
+    </section>
+
+    <script>
+      var typed = new Typed(".name", {
+        strings: ["Ayoub", "Programmer", "hacker"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

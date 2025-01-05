@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Sofia&family=Train+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background: black;
+    height: 450vh;
+    width: 100vw;
+    overflow-x: hidden;
+    color: white;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    z-index: 100;
+    background-color: black;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+a span{
+    font-family: "sofia";
+    font-size: 30px;
+    color: white;
+    
+}
+#logo{
+    color: white;
+}
+nav{
+    font-size: 20px;
+    background-color: #000000;
+}
+
+nav a{
+    margin: 20px;  
+    color: white;  
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    padding: 70px 70px;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.container .text{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding: 140px 0;
+    flex: 1;
+    padding-left: 50px;
+
+}
+.container div{
+    flex: 1;
+}
+.container div img{
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 71px 0;
+}
+.text h2{
+    font-size: 50px;
+}
+
+.text h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    font-size: 80px;
+}
+#name{
+    color: yellow;
+    margin-top: -15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    margin-inline: auto;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+@keyframes move {
+    40%,60%{
+        left: 100%;
+    }
+    100%{
+        left: 0;
+    }
+    
+}
+
+.container .p{
+    background-color: yellow;
+    width: fit-content;
+    font-size: 20px;
+    color: #000000;
+    padding: 5px 0;
+    margin-top: 5px;
+}
+
+.container .p2{
+    display: flex;
+    padding-left: 140px;
+    padding: 20px 140px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+.button_more{
+    display: flex;
+    align-items: center;
+    padding-left: 17%;    
+}
+.container .more{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    width: 200px;
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+#About_me{
+    height: 100vh;
+    display: flex;
+}
+
+#About_me h1{
+    margin-left: 120px;
+    padding: 70px 5px 30px 10px;
+    font-size: 60px;
+}
+
+#About_me ol{
+    padding: 10px 0 10px 20px;
+}
+
+#About_me ol li{
+    padding: 15px 0;
+}
+
+#About_me ol p{
+    word-wrap: break-word;
+}
+
+.text_container{
+    width: 50%;
+}
+#list_1{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    word-spacing: 4px;
+    line-height: 25px;
+    align-items: center;
+}
+#list_1 a{
+    text-decoration: none;
+    color: #000000;
+}
+#list_1 hr{
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+.explore {
+    margin-top: 15px;
+    border: none;
+    border-radius: 15px;
+    width: 200px;
+    height: 25px;
+    background-color: yellow;
+    color: black;
+    transition: all 0.3s linear;
+}
+
+.explore:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#list_2{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    word-spacing: 4px;
+    line-height: 25px;
+    align-items: center;
+}
+
+#list_2 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.sport_article{
+    margin-top: 15px;
+    border: none;
+    border-radius: 15px;
+    width: 200px;
+    height: 25px;
+    background-color: yellow;
+    color: black;
+    transition: all 0.3s linear;
+}
+
+.sport_article:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.img_ESi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding-top: 150px;
+    width: 50%;    
+}
+.img_ESi img{
+
+    position: sticky;
+    top: 150px;
+    right: 150px;
+    width: 300px;
+
+}
+.Esi{
+    background-color: white;
+}
+
+#Portfolio{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.coming::after{
+    position: absolute;
+    content: "Stay Tuned";
+    left: 690px;
+    width: 300px;
+    height: 32px;
+    background-color: black;
+    cursor: pointer;
+}
+.coming:hover::after{
+    animation: move 2s 0s linear 1 forwards;
+}
+
+@keyframes move {
+    0%{
+        left: 690px;
+    }
+    50%{
+        left: 820px;
+    }
+    100%{
+        left: 1000px;
+    }
+}
+
+.coming{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+#Services{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-top: 40px;
+}
+#Services h1{
+    
+    font-size: 50px;
+
+}
+.icons{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    left: 400px;
+    justify-content: center;
+    width: 100%;
+}
+.project_card{
+    position: relative;
+    right: 500px;
+    top: 150px;
+    height: 350px;
+    width: 500px;
+    background: grey;
+
+}
+
+.project_card img{
+    height: 350px;
+    width: 500;
+
+}
+
+#Services #p3{
+    width: 600px;
+    text-align: center;
+    position: relative;
+    left: 400px;
+}
+#Services #p4{
+    position: relative;
+    left: 400px;
+}
+#Services ol{
+    position: relative;
+    left: 400px;
+}
+
+#Services ol li img{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+#Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+#Contact h2{
+    text-align: center;
+    margin: 30px;
+
+}
+.contact{
+    height: 60%;
+    flex: 4;
+    display: flex;
+}
+.here{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.talk{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: grey;
+    height: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.onHover{
+    transform: scale(1.1);
+    text-decoration:underline;
+}
+.offHover{
+    transform: scale(1);
+    text-decoration:none;
+    color: yellow;
+}
+
+
