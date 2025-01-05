@@ -145,6 +145,7 @@ nav a{
 #About_me{
     height: 100vh;
     display: flex;
+    border-bottom: 1px solid white ;
 }
 
 #About_me h1{
