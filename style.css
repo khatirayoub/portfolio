@@ -265,7 +265,7 @@ nav a{
 .coming::after{
     position: absolute;
     content: "Stay Tuned";
-    left: 690px;
+    left: 600px;
     width: 300px;
     height: 32px;
     background-color: black;
