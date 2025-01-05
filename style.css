@@ -205,7 +205,7 @@ nav a{
 }
 
 #list_2{
-    padding: 100px;
+    padding: 10px 100px;
     display: flex;
     flex-direction: column;
     word-spacing: 4px;
