@@ -13,7 +13,8 @@ a{
 }
 body{
     background: black;
-    height: 450vh;
+    min-height: 100vh;
+    height:100%;
     width: 100vw;
     overflow-x: hidden;
     color: white;
@@ -143,7 +144,8 @@ nav a{
 }
 
 #About_me{
-    height: 100vh;
+    min-height: 100vh;
+    height:100%;
     display: flex;
     border-bottom: 1px solid white ;
 }
